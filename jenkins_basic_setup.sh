@@ -8,6 +8,9 @@ echo deb http://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources
 sudo apt-get update
 echo "Install Jenkins"
 sudo apt-get install jenkins
+echo "install java for start jenkins"
+#
+#
 echo "Setting the ufw. Port 8080 will be enabled"
 sudo ufw allow 8080
 sudo ufw status
