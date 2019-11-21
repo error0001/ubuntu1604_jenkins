@@ -15,7 +15,8 @@ echo "Setting the ufw. Port 8080 will be enabled"
 sudo ufw allow 8080
 sudo ufw status
 echo "Start Jenkins"
-sudo systemctl start jenkins
+# sudo systemctl start jenkins
 sudo systemctl status jenkins
-echo "If Jenkins is ok, see loaded will be enabled and active is runed."
+echo "If Jenkins is ok, see loaded will be enabled."
+echo "Letsgo start jenkins across systemctl"
 echo "Done. Go to the link, ip_address_or_domain_name:8080 and set up more"
